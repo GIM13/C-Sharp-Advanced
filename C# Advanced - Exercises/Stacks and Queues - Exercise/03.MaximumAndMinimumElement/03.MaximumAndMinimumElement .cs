@@ -9,16 +9,13 @@ namespace _03.MaximumAndMinimumElement
         static void Main()
         {
             int numberTimes = int.Parse(Console.ReadLine());
-
             var stack = new Stack<int>();
-
             for (int i = 0; i < numberTimes; i++)
             {
                 int[] command = Console.ReadLine()
                     .Split()
                     .Select(int.Parse)
                     .ToArray();
-
                 if (command[0] == 1)
                 {
                     stack.Push(command[1]);
