@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.BasicQueueOperations", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.MaximumAndMinimumElement", "03.MaximumAndMinimumElement\03.MaximumAndMinimumElement.csproj", "{4C28B0C7-C80A-4FAB-88A7-9C42083C6EB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04FastFood", "04FastFood\04FastFood.csproj", "{4CFCDBB3-B582-4ECF-A8A4-F14A52D53AFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04FastFood", "04FastFood\04FastFood.csproj", "{4CFCDBB3-B582-4ECF-A8A4-F14A52D53AFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05FashionBoutique", "05FashionBoutique\05FashionBoutique.csproj", "{F6C40900-95C3-4822-9D52-F36C9478E164}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05FashionBoutique", "05FashionBoutique\05FashionBoutique.csproj", "{F6C40900-95C3-4822-9D52-F36C9478E164}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06AutoRepairAndService", "06AutoRepairAndService\06AutoRepairAndService.csproj", "{89AEAFC3-F974-496A-97AD-285B96F7AD7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{F6C40900-95C3-4822-9D52-F36C9478E164}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6C40900-95C3-4822-9D52-F36C9478E164}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6C40900-95C3-4822-9D52-F36C9478E164}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89AEAFC3-F974-496A-97AD-285B96F7AD7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89AEAFC3-F974-496A-97AD-285B96F7AD7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89AEAFC3-F974-496A-97AD-285B96F7AD7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89AEAFC3-F974-496A-97AD-285B96F7AD7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
