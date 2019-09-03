@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04FastFood", "04FastFood\04
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05FashionBoutique", "05FashionBoutique\05FashionBoutique.csproj", "{F6C40900-95C3-4822-9D52-F36C9478E164}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06AutoRepairAndService", "06AutoRepairAndService\06AutoRepairAndService.csproj", "{89AEAFC3-F974-496A-97AD-285B96F7AD7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06AutoRepairAndService", "06AutoRepairAndService\06AutoRepairAndService.csproj", "{89AEAFC3-F974-496A-97AD-285B96F7AD7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07TruckTour", "07TruckTour\07TruckTour.csproj", "{DBBC748A-79A6-4E8E-A6EC-7D5EEF0812B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{89AEAFC3-F974-496A-97AD-285B96F7AD7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89AEAFC3-F974-496A-97AD-285B96F7AD7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89AEAFC3-F974-496A-97AD-285B96F7AD7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBBC748A-79A6-4E8E-A6EC-7D5EEF0812B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBBC748A-79A6-4E8E-A6EC-7D5EEF0812B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBBC748A-79A6-4E8E-A6EC-7D5EEF0812B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBBC748A-79A6-4E8E-A6EC-7D5EEF0812B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
