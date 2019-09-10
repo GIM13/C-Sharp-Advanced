@@ -17,9 +17,9 @@ namespace _06BombTheBasement
 
             for (int row = 0; row < rows; row++)
             {
-                for (int col = 0; col < columns; col++)
+                for (int col = 0; col < opaaa; col++)
                 {
-                    
+                    Console.WriteLine();
                 }
             }
         }
