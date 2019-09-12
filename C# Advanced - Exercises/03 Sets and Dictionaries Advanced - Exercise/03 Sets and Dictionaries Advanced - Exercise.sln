@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29230.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01UniqueUsernames", "01UniqueUsernames\01UniqueUsernames.csproj", "{D86EFBDD-7F74-415C-95AB-88A8BFBD234E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01UniqueUsernames", "01UniqueUsernames\01UniqueUsernames.csproj", "{D86EFBDD-7F74-415C-95AB-88A8BFBD234E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05CountSymbols", "05CountSymbols\05CountSymbols.csproj", "{16AD44CD-C26C-4EF5-ADA5-8795C91A08B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05CountSymbols", "05CountSymbols\05CountSymbols.csproj", "{16AD44CD-C26C-4EF5-ADA5-8795C91A08B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06Wardrobe", "06Wardrobe\06Wardrobe.csproj", "{2BF4BCE3-4CCC-4544-8099-7558BFC69832}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{16AD44CD-C26C-4EF5-ADA5-8795C91A08B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16AD44CD-C26C-4EF5-ADA5-8795C91A08B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16AD44CD-C26C-4EF5-ADA5-8795C91A08B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BF4BCE3-4CCC-4544-8099-7558BFC69832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BF4BCE3-4CCC-4544-8099-7558BFC69832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BF4BCE3-4CCC-4544-8099-7558BFC69832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BF4BCE3-4CCC-4544-8099-7558BFC69832}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
