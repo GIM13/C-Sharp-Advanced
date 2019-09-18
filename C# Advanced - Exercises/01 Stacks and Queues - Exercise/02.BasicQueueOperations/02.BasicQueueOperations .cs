@@ -12,7 +12,6 @@ namespace _02.BasicQueueOperations
                 .Split()
                 .Select(int.Parse)
                 .ToArray();
-
             int numberEnqueue = input[0];
             int numberDequeue = input[1];
             int wantedElement = input[2];
@@ -21,7 +20,6 @@ namespace _02.BasicQueueOperations
                 .Split()
                 .Select(int.Parse)
                 .ToArray();
-
             var queue = new Queue<int>();
 
             for (int i = 0; i < numberEnqueue; i++)

@@ -12,7 +12,6 @@ namespace _01._Basic_Stack_Operations
                 .Split()
                 .Select(int.Parse)
                 .ToArray();
-
             int numberPush = input[0];
             int numberPop = input[1];
             int wantedElement = input[2];
@@ -21,7 +20,6 @@ namespace _01._Basic_Stack_Operations
                 .Split()
                 .Select(int.Parse)
                 .ToArray();
-
             var stack = new Stack<int>();
 
             for (int i = 0; i < numberPush; i++)
