@@ -30,9 +30,19 @@ namespace _05SnakeMoves
             }
             for (int row = 0; row < rows; row++)
             {
-                for (int col = 0; col < columns; col++)
+                if (row % 2 == 0)
                 {
-                    Console.Write(matrix[row,col]);
+                    for (int col = 0; col < columns; col++)
+                    {
+                        Console.Write(matrix[row, col]);
+                    }
+                }
+                else
+                {
+                    for (int col = columns - 1; col >= 0; col--)
+                    {
+                        Console.Write(matrix[row, col]);
+                    }
                 }
                 Console.WriteLine();
             }
