@@ -8,14 +8,15 @@ namespace _06JaggedArrayModification
         static void Main()
         {
             int numRow = int.Parse(Console.ReadLine());
-            int[][] rowCol = new int[numRow][];
+            double[][] rowCol = new double[numRow][];
 
             for (int i = 0; i < numRow; i++)
             {
                 rowCol[i] = Console.ReadLine()
                 .Split()
-                .Select(int.Parse)
+                .Select(double.Parse)
                 .ToArray();
+
                 if (i > 0)
                 {
                     if (rowCol[i].Count() == rowCol[i - 1].Count())
@@ -39,13 +40,14 @@ namespace _06JaggedArrayModification
                     }
                 }
             }
-            string[] command = Console.ReadLine().Split();
+            string[] command = Console.ReadLine()
+                .Split(" ", StringSplitOptions.RemoveEmptyEntries);
 
             while (command[0] != "End")
             {
                 int row = int.Parse(command[1]);
                 int col = int.Parse(command[2]);
-                int value = int.Parse(command[3]);
+                double value = double.Parse(command[3]);
 
                 if (0 <= row && row < rowCol.Length
                  && 0 <= col && col < rowCol[row].Length)
