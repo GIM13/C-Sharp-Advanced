@@ -41,7 +41,7 @@ namespace _06JaggedArrayModification
             }
             string[] command = Console.ReadLine().Split();
 
-            while (command[0].ToLower() != "end")
+            while (command[0] != "End")
             {
                 int row = int.Parse(command[1]);
                 int col = int.Parse(command[2]);

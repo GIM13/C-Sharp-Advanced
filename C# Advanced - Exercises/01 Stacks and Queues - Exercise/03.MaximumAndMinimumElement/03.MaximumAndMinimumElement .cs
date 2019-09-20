@@ -26,13 +26,13 @@ namespace _03.MaximumAndMinimumElement
                 }
                 else if (command[0] == 3 && stack.Count() > 0)
                 {
-                    int maxElement = stack.ToArray().Max();
+                    int maxElement = stack.Max();
 
                     Console.WriteLine(maxElement);
                 }
                 else if (command[0] == 4 && stack.Count() > 0)
                 {
-                    int minElement = stack.ToArray().Min();
+                    int minElement = stack.Min();
 
                     Console.WriteLine(minElement);
                 }

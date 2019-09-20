@@ -40,7 +40,7 @@ namespace _01._Basic_Stack_Operations
 
                 if (stack.Count() > 0)
                 {
-                    minElement = stack.ToArray().Min();
+                    minElement = stack.Min();
                 }
                 Console.WriteLine(minElement);
             }

@@ -13,13 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04MatrixShuffling", "04Matr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05SnakeMoves", "05SnakeMoves\05SnakeMoves.csproj", "{14770930-C9A9-4DA8-8B32-921C8345DBF6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06BombTheBasement", "06BombTheBasement\06BombTheBasement.csproj", "{1E8E9FE2-EB80-45A6-BCE4-B6C20649E8E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07BombTheBasement", "06BombTheBasement\07BombTheBasement.csproj", "{1E8E9FE2-EB80-45A6-BCE4-B6C20649E8E0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07KnightGame", "07KnightGame\07KnightGame.csproj", "{3DB4CA0F-88C7-43DF-81D4-C489AB43E137}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08KnightGame", "07KnightGame\08KnightGame.csproj", "{3DB4CA0F-88C7-43DF-81D4-C489AB43E137}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08Bombs", "08Bombs\08Bombs.csproj", "{25E5B852-0CFB-4671-88E9-0482AE224B17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09Bombs", "08Bombs\09Bombs.csproj", "{25E5B852-0CFB-4671-88E9-0482AE224B17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06JaggedArrayModification", "06JaggedArrayModification\06JaggedArrayModification.csproj", "{08610217-A761-412C-B5D8-B216DF6317B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06JaggedArrayModification", "06JaggedArrayModification\06JaggedArrayModification.csproj", "{08610217-A761-412C-B5D8-B216DF6317B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
