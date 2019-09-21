@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06Wardrobe", "06Wardrobe\06
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07TheVLogger", "07TheVLogger\07TheVLogger.csproj", "{06B713AF-4227-4183-8DD7-2910CDD12932}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08Ranking", "08Ranking\08Ranking.csproj", "{7CF1F6FB-F0A9-4890-81D2-50B6F95EC3C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08Ranking", "08Ranking\08Ranking.csproj", "{7CF1F6FB-F0A9-4890-81D2-50B6F95EC3C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02SetsOfElements", "02SetsOfElements\02SetsOfElements.csproj", "{3EF1F1D5-3E48-4802-BCBE-373FCC87533D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{7CF1F6FB-F0A9-4890-81D2-50B6F95EC3C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CF1F6FB-F0A9-4890-81D2-50B6F95EC3C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CF1F6FB-F0A9-4890-81D2-50B6F95EC3C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EF1F1D5-3E48-4802-BCBE-373FCC87533D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EF1F1D5-3E48-4802-BCBE-373FCC87533D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EF1F1D5-3E48-4802-BCBE-373FCC87533D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EF1F1D5-3E48-4802-BCBE-373FCC87533D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
