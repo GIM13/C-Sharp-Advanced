@@ -5,9 +5,13 @@ VisualStudioVersion = 16.0.29311.281
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01ActionPrint", "01ActionPrint\01ActionPrint.csproj", "{C9557CAD-0461-4418-A5A6-8C02A66C3FE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02KnightsOfHonor", "02KnightsOfHonor\02KnightsOfHonor.csproj", "{D9B09043-D239-4BCC-8354-2D1DEF1055FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02KnightsOfHonor", "02KnightsOfHonor\02KnightsOfHonor.csproj", "{D9B09043-D239-4BCC-8354-2D1DEF1055FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03CustomMinFunction", "03CustomMinFunction\03CustomMinFunction.csproj", "{5DCC9F81-75D4-4D18-93BF-10D3376BB1E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03CustomMinFunction", "03CustomMinFunction\03CustomMinFunction.csproj", "{5DCC9F81-75D4-4D18-93BF-10D3376BB1E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04FindEvensOrOdds", "04FindEvensOrOdds\04FindEvensOrOdds.csproj", "{DC69E1A4-3B11-40D0-955A-7B4055956B43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05AppliedArithmetics", "05AppliedArithmetics\05AppliedArithmetics.csproj", "{E0E0098A-C477-4782-A204-B2BD5A9373D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{5DCC9F81-75D4-4D18-93BF-10D3376BB1E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DCC9F81-75D4-4D18-93BF-10D3376BB1E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DCC9F81-75D4-4D18-93BF-10D3376BB1E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC69E1A4-3B11-40D0-955A-7B4055956B43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC69E1A4-3B11-40D0-955A-7B4055956B43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC69E1A4-3B11-40D0-955A-7B4055956B43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC69E1A4-3B11-40D0-955A-7B4055956B43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0E0098A-C477-4782-A204-B2BD5A9373D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0E0098A-C477-4782-A204-B2BD5A9373D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0E0098A-C477-4782-A204-B2BD5A9373D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0E0098A-C477-4782-A204-B2BD5A9373D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
