@@ -27,8 +27,8 @@ namespace _03MaximalSum
                     }
                 }
                 long maxSum3x3Squares = long.MinValue;
-                int savaIndexsRow = -1;
-                int savaIndexsCol = -1;
+                int saveIndexsRow = -1;
+                int saveIndexsCol = -1;
 
                 for (int row = 0; row < matrix.GetLength(0) - 2; row++)
                 {
@@ -46,8 +46,8 @@ namespace _03MaximalSum
                         if (maxSum3x3Squares < sum3x3Squares)
                         {
                             maxSum3x3Squares = sum3x3Squares;
-                            savaIndexsRow = row;
-                            savaIndexsCol = col;
+                            saveIndexsRow = row;
+                            saveIndexsCol = col;
                         }
                     }
                 }
@@ -55,9 +55,9 @@ namespace _03MaximalSum
 
                 for (int i = 0; i < 3; i++)
                 {
-                    Console.WriteLine(matrix[savaIndexsRow + i, savaIndexsCol] + " "
-                                    + matrix[savaIndexsRow + i, savaIndexsCol  + 1] + " "
-                                    + matrix[savaIndexsRow + i, savaIndexsCol  + 2]);
+                    Console.WriteLine(matrix[saveIndexsRow + i, saveIndexsCol] + " "
+                                    + matrix[saveIndexsRow + i, saveIndexsCol  + 1] + " "
+                                    + matrix[saveIndexsRow + i, saveIndexsCol  + 2]);
                 }
             }
         }
