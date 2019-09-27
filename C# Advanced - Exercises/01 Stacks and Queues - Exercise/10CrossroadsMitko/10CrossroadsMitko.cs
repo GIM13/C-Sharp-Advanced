@@ -26,7 +26,7 @@ namespace _10
                 {
                     int copy = greenLightDuration;
 
-                    while (cars.Any())
+                    while (cars.Any() && greenLightDuration > 0)
                     {
                         int carsSum = cars.Peek().Length;
                         carsReverseStack.Push(cars.Dequeue());
