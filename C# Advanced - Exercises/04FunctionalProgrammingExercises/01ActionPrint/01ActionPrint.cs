@@ -1,16 +1,15 @@
-﻿namespace _01ActionPrint
-{
-    using System;
-    using System.Linq;
+﻿using System;
+using System.Linq;
 
-    internal class Program
+namespace _01ActionPrint
+{
+    class Program
     {
-        private static void Main()
+        static void Main()
         {
             Action<string[]> printArr = arr => arr
                 .ToList()
-
-                .ForEach(text => Console.WriteLine(text));
+                .ForEach(text => Console.WriteLine(text)); 
 
             string[] collectionStrings = Console.ReadLine().Split();
 
