@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29319.158
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefiningClasses", "DefiningClasses\DefiningClasses.csproj", "{DA1D5148-CC5C-4D1C-9DD0-AA9173468644}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DefiningClasses", "DefiningClasses\DefiningClasses.csproj", "{DA1D5148-CC5C-4D1C-9DD0-AA9173468644}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04OpinionPoll", "04OpinionPoll\04OpinionPoll.csproj", "{D18E4D04-FE40-4CB5-BE7D-8C271D4E1ADB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{DA1D5148-CC5C-4D1C-9DD0-AA9173468644}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA1D5148-CC5C-4D1C-9DD0-AA9173468644}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA1D5148-CC5C-4D1C-9DD0-AA9173468644}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D18E4D04-FE40-4CB5-BE7D-8C271D4E1ADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D18E4D04-FE40-4CB5-BE7D-8C271D4E1ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D18E4D04-FE40-4CB5-BE7D-8C271D4E1ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D18E4D04-FE40-4CB5-BE7D-8C271D4E1ADB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
