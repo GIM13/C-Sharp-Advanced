@@ -38,6 +38,8 @@ namespace _03WordCount
                 .OrderByDescending(x => x.Value)
                 .ToDictionary(x => x.Key, y => y.Value);
 
+            File.WriteAllText("actualResults.txt","");
+
             int count = 1;
             foreach (var item in countWords)
             {
@@ -52,7 +54,16 @@ namespace _03WordCount
                 count++;
             }
 
-            Console.WriteLine(File.Equals("actualResults.txt", "expectedResult.txt"));
+            bool result = true;
+
+            for (int i = 0; i < listWords.Length; i++)
+            {
+                if (File.ReadAllLines("actualResults.txt")[i] != File.ReadAllLines("expectedResult.txt")[i])
+                {
+                    result = false;
+                }
+            }
+            Console.WriteLine(result);
         }
     }
 }
