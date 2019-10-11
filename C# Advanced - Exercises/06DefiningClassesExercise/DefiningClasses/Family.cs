@@ -22,19 +22,19 @@ namespace DefiningClasses
 
         public Person GetOldestMember()
         {
-            // var oldestMember = Members
-            //     .OrderByDescending(x => x.Age)
-            //     .FirstOrDefault();
-            var oldestMember = new Person(0);
-
-            foreach (var person in Members)
-            {
-                if (oldestMember.Age < person.Age)
-                {
-                    oldestMember.Age = person.Age;
-                    oldestMember.Name = person.Name;
-                }
-            }
+             var oldestMember = Members
+                 .OrderByDescending(x => x.Age)
+                 .FirstOrDefault();
+          // var oldestMember = new Person(0);
+          //
+          // foreach (var person in Members)
+          // {
+          //     if (oldestMember.Age < person.Age)
+          //     {
+          //         oldestMember.Age = person.Age;
+          //         oldestMember.Name = person.Name;
+          //     }
+          // }
 
             return oldestMember;
         }

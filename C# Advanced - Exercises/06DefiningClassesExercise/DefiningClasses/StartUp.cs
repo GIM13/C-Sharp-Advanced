@@ -17,7 +17,7 @@ namespace DefiningClasses
                 string name = input[0];
                 double age = double.Parse(input[1]);
 
-                if (age > 0 && name != string.Empty)
+                if (age >= 0 && name != string.Empty)
                 {
                     family.AddMember(new Person(age, name));
                 }
