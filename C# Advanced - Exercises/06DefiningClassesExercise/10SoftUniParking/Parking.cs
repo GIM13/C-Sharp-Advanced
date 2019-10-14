@@ -5,7 +5,7 @@ namespace SoftUniParking
 {
     public class Parking
     {
-        public int capacity;
+        private int capacity;
 
         public Parking(int capacity)
         {
@@ -16,43 +16,37 @@ namespace SoftUniParking
 
         public List<Car> Cars { get; set; }
 
-        public int Count { get; private set; } 
+        public int Count { get; private set; }
 
         public string AddCar(Car car)
         {
-            if (Cars.Any(c => c.RegistrationNumber == car.RegistrationNumber))
+            if (this.Cars.Any(c => c.RegistrationNumber == car.RegistrationNumber))
             {
                 return "Car with that registration number, already exists!";
             }
-            else if (capacity <= Count)
+            else if (capacity <= this.Count)
             {
                 return "Parking is full!";
             }
 
-            Count++;
+            this.Count++;
 
-            Cars.Add(car);
+            this.Cars.Add(car);
 
             return $"Successfully added new car {car.Make} {car.RegistrationNumber}";
         }
 
         public Car GetCar(string registrationNumber)
         {
-            var car = new Car(string.Empty, string.Empty, 0, string.Empty);
-
-            if (Cars.Any(c => c.RegistrationNumber == registrationNumber))
-            {
-                car = Cars
-                    .Where(c => c.RegistrationNumber == registrationNumber)
-                    .ToArray()[0];
-            }
+            var car = this.Cars
+                 .FirstOrDefault(c => c.RegistrationNumber == registrationNumber);
 
             return car;
         }
 
         public string RemoveCar(string registrationNumber)
         {
-            if (Cars.Any(c => c.RegistrationNumber == registrationNumber))
+            if (this.Cars.Any(c => c.RegistrationNumber == registrationNumber))
             {
                 Clears(registrationNumber);
 
@@ -64,20 +58,19 @@ namespace SoftUniParking
 
         private void Clears(string registrationNumber)
         {
-            Count--;
+            this.Count--;
 
-            var forRemove = Cars
-                .Where(c => c.RegistrationNumber == registrationNumber)
-                .ToArray()[0];
+            var forRemove = this.Cars
+                .FirstOrDefault(c => c.RegistrationNumber == registrationNumber);
 
-            Cars.Remove(forRemove);
+            this.Cars.Remove(forRemove);
         }
 
         public void RemoveSetOfRegistrationNumber(List<string> registrationNumbers)
         {
             foreach (var registrationNumber in registrationNumbers)
             {
-                if (Cars.Any(c => c.RegistrationNumber == registrationNumber))
+                if (this.Cars.Any(c => c.RegistrationNumber == registrationNumber))
                 {
                     Clears(registrationNumber);
                 }

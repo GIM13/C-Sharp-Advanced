@@ -26,6 +26,7 @@ namespace SoftUniParking
                             $"Model: {Model}" + Environment.NewLine +
                             $"HorsePower: {HorsePower}" + Environment.NewLine +
                             $"RegistrationNumber: {RegistrationNumber}";
+
             return result; 
         }
     }
