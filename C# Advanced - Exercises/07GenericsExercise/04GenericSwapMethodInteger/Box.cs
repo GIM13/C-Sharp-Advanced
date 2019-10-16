@@ -1,4 +1,4 @@
-﻿namespace _02GenericBoxOfInteger
+﻿namespace _04GenericSwapMethodInteger
 {
     public class Box<T>
     {

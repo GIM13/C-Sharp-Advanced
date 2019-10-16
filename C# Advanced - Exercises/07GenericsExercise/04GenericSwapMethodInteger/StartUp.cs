@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _03GenericSwapMethodString
+namespace _04GenericSwapMethodInteger
 {
     public class StartUp
     {
@@ -8,11 +8,11 @@ namespace _03GenericSwapMethodString
         {
             int numInput = int.Parse(Console.ReadLine());
 
-            var input = new Box<string>[numInput];
+            var input = new Box<int>[numInput];
 
             for (int i = 0; i < numInput; i++)
             {
-                input[i] = new Box<string>(Console.ReadLine());
+                input[i] = new Box<int>(int.Parse(Console.ReadLine()));
             }
 
             string indexes = Console.ReadLine();

@@ -1,6 +1,9 @@
-﻿namespace _02GenericBoxOfInteger
+﻿using System;
+
+namespace _05GenericCountMethodString
 {
     public class Box<T>
+        where T : IComparable<T>
     {
         private T value;
 
@@ -8,6 +11,8 @@
         {
             this.value = value;
         }
+
+        public T Value { get; set; }
 
         public override string ToString()
         {
