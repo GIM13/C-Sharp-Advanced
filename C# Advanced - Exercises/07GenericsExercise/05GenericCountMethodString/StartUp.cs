@@ -9,19 +9,19 @@ namespace _05GenericCountMethodString
         {
             int numInput = int.Parse(Console.ReadLine());
 
-            var input = new Box<string>[numInput];
+            var input = new string[numInput];
 
             for (int i = 0; i < numInput; i++)
             {
-                input[i] = new Box<string>(Console.ReadLine());
+                input[i] = new string(Console.ReadLine());
             }
 
-            var standard = new Box<string>(Console.ReadLine());
+            var standard = new string(Console.ReadLine());
 
             Console.WriteLine(BiggerOnes(input, standard));
         }
 
-        private static int BiggerOnes<T>(T[] input, T standard)
+        public static int BiggerOnes<T>(T[] input, T standard)
             where T : IComparable<T>
         {
             int result = input
