@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Collections.Generic;
 
 namespace HealthyHeaven
@@ -29,17 +30,18 @@ namespace HealthyHeaven
                 result = result + product + Environment.NewLine;
             }
 
-            return result.Trim();
+            return result.TrimEnd();
         }
 
         public int GetTotalCalories()
         {
-            calories = 0;
+            calories = products.Sum(x => x.Calories);
 
-            foreach (var product in products)
-            {
-                calories += product.Calories;
-            }
+           // foreach (var product in products)
+           // {
+           //     calories += product.Calories;
+           // }
+
             return calories;
         }
 

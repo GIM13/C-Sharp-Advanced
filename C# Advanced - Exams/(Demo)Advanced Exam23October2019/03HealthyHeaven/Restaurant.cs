@@ -17,16 +17,16 @@ namespace HealthyHeaven
             salads = new List<Salad>();
         }
 
-        public string Name { get; private set; }
+        public string Name { get;  set; }
 
-        internal void Add(Salad salad)
+        public void Add(Salad salad)
         {
             this.salads.Add(salad);
 
             counter++;
         }
 
-        internal bool Buy(string saladName)
+        public bool Buy(string saladName)
         {
             Salad salad = this.salads.FirstOrDefault(x => x.Name == saladName);
 
@@ -42,14 +42,14 @@ namespace HealthyHeaven
             return false;
         }
 
-        internal string GetHealthiestSalad()
+        public Salad GetHealthiestSalad()
         {
             var result = salads.OrderBy(x => x.GetTotalCalories()).FirstOrDefault();
 
-            return result.Name;
+            return result;
         }
 
-        internal string GenerateMenu()
+        public string GenerateMenu()
         {
             string result = $"{Name} have {counter} salads:" + Environment.NewLine;
 
@@ -58,7 +58,7 @@ namespace HealthyHeaven
                 result = result + salad + Environment.NewLine;
             }
 
-            return result.Trim();
+            return result.TrimEnd();
         }
     }
 }
