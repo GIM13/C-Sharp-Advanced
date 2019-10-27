@@ -5,13 +5,15 @@ VisualStudioVersion = 16.0.29319.158
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01GenericBoxOfString", "01GenericBoxOfString\01GenericBoxOfString.csproj", "{AA15AE5C-E343-447B-A7EC-15ECE68B71A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02GenericBoxOfInteger", "02GenericBoxOfInteger\02GenericBoxOfInteger.csproj", "{A348DF0E-7517-4A04-8240-F0E988BE7D70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02GenericBoxOfInteger", "02GenericBoxOfInteger\02GenericBoxOfInteger.csproj", "{A348DF0E-7517-4A04-8240-F0E988BE7D70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03GenericSwapMethodString", "03GenericSwapMethodString\03GenericSwapMethodString.csproj", "{1F7077C0-7559-4030-9373-D383D19E5053}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03GenericSwapMethodString", "03GenericSwapMethodString\03GenericSwapMethodString.csproj", "{1F7077C0-7559-4030-9373-D383D19E5053}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04GenericSwapMethodInteger", "04GenericSwapMethodInteger\04GenericSwapMethodInteger.csproj", "{6CD30E42-A5A2-4159-BD33-84AFC0B2269B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04GenericSwapMethodInteger", "04GenericSwapMethodInteger\04GenericSwapMethodInteger.csproj", "{6CD30E42-A5A2-4159-BD33-84AFC0B2269B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05GenericCountMethodString", "05GenericCountMethodString\05GenericCountMethodString.csproj", "{3380A6FE-FFDA-45A6-B3FD-D8B3C8DA46F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05GenericCountMethodString", "05GenericCountMethodString\05GenericCountMethodString.csproj", "{3380A6FE-FFDA-45A6-B3FD-D8B3C8DA46F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06GenericCountMethodDouble", "06GenericCountMethodDouble\06GenericCountMethodDouble.csproj", "{E778D07F-35F5-4586-8ED8-97C28ACDEF56}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{3380A6FE-FFDA-45A6-B3FD-D8B3C8DA46F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3380A6FE-FFDA-45A6-B3FD-D8B3C8DA46F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3380A6FE-FFDA-45A6-B3FD-D8B3C8DA46F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E778D07F-35F5-4586-8ED8-97C28ACDEF56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E778D07F-35F5-4586-8ED8-97C28ACDEF56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E778D07F-35F5-4586-8ED8-97C28ACDEF56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E778D07F-35F5-4586-8ED8-97C28ACDEF56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -50,7 +50,7 @@ namespace SoftUniParking
             {
                 Clears(registrationNumber);
 
-                return $"Successfullyremoved {registrationNumber}";
+                return $"Successfully removed {registrationNumber}";
             }
 
             return "Car with that registration number, doesn't exist!";

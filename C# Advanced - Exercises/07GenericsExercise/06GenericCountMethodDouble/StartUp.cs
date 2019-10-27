@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace _05GenericCountMethodString
+namespace _06GenericCountMethodDouble
 {
     public class StartUp
     {
@@ -9,14 +9,14 @@ namespace _05GenericCountMethodString
         {
             int numInput = int.Parse(Console.ReadLine());
 
-            var input = new Box<string>[numInput];
+            var input = new double[numInput];
 
             for (int i = 0; i < numInput; i++)
             {
-                input[i] =new Box<string>(Console.ReadLine());
+                input[i] = double.Parse(Console.ReadLine());
             }
 
-            var standard = new Box<string>(Console.ReadLine());
+            var standard = double.Parse(Console.ReadLine());
 
             Console.WriteLine(BiggerOnes(input, standard));
         }
