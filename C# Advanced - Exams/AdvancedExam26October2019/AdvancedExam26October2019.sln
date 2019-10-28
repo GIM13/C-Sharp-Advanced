@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01Dating App", "01\01Dating
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02BookWorm", "02\02BookWorm.csproj", "{EC9E6932-034D-4AAF-A47A-A883D4995F3A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03Rabbits", "03abbits\03Rabbits.csproj", "{06D7B2A5-0AAB-4CC7-BA34-0C0FC81F081E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03Rabbits", "03Rabits\3. Rabbits_Skeleton\03Rabbits.csproj", "{4CD561E0-35EF-475B-94FD-BBB12B427020}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{EC9E6932-034D-4AAF-A47A-A883D4995F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC9E6932-034D-4AAF-A47A-A883D4995F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC9E6932-034D-4AAF-A47A-A883D4995F3A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{06D7B2A5-0AAB-4CC7-BA34-0C0FC81F081E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{06D7B2A5-0AAB-4CC7-BA34-0C0FC81F081E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{06D7B2A5-0AAB-4CC7-BA34-0C0FC81F081E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{06D7B2A5-0AAB-4CC7-BA34-0C0FC81F081E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CD561E0-35EF-475B-94FD-BBB12B427020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CD561E0-35EF-475B-94FD-BBB12B427020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CD561E0-35EF-475B-94FD-BBB12B427020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CD561E0-35EF-475B-94FD-BBB12B427020}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

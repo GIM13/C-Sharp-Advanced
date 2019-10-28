@@ -1,9 +1,6 @@
-﻿using System;
-
-namespace Rabbits
+﻿namespace Rabbits
 {
     using System;
-    using System.Linq;
 
     public class StartUp
     {
@@ -37,7 +34,7 @@ namespace Rabbits
             Console.WriteLine(cage.SellRabbit("Bunny")); //Rabbit (Brazilian): Bunny
                                                          //Sell Rabbit by species
             Rabbit[] soldSpecies = cage.SellRabbitsBySpecies("Cashmere Lop");
-            Console.WriteLine(string.Join(", ", soldSpecies.Select(f => f.Name))); //Jumpy, Puffy
+         //   Console.WriteLine(string.Join(", ", soldSpecies.Select(f => f.Name))); //Jumpy, Puffy
 
             Console.WriteLine(cage.Report());
             //Rabbits available at Wildness:

@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace _02BookWorm
 {
-    public class Program
+    public class StartUp
     {
         public static void Main()
         {
@@ -39,7 +39,7 @@ namespace _02BookWorm
                 {
                     if (row - 1 < 0)
                     {
-                        initialString = initialString.SkipLast(1).ToString();
+                        initialString = initialString.Substring(0, initialString.Length - 1);
                     }
                     else
                     {
@@ -64,13 +64,7 @@ namespace _02BookWorm
                 {
                     if (row + 1 > sizeMatrix - 1)
                     {
-                        string copy = "";
-
-                        for (int i = 0; i < initialString.Length - 1; i++)
-                        {
-                            copy += initialString[i];
-                        }
-                        initialString = copy;
+                        initialString = initialString.Substring(0, initialString.Length - 1);
                     }
                     else
                     {
@@ -95,13 +89,7 @@ namespace _02BookWorm
                 {
                     if (col - 1 < 0)
                     {
-                        string copy = "";
-
-                        for (int i = 0; i < initialString.Length - 1; i++)
-                        {
-                            copy += initialString[i];
-                        }
-                        initialString = copy;
+                        initialString = initialString.Substring(0, initialString.Length - 1);
                     }
                     else
                     {
@@ -126,7 +114,7 @@ namespace _02BookWorm
                 {
                     if (col + 1 > sizeMatrix - 1)
                     {
-                        initialString = initialString.SkipLast(1).ToString();
+                        initialString = initialString.Substring(0, initialString.Length -1);
                     }
                     else
                     {

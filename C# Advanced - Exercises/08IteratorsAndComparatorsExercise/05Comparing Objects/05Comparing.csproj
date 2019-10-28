@@ -3,11 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.1</TargetFramework>
-    <RootNamespace>_03</RootNamespace>
+    <RootNamespace>_05Comparing_Objects</RootNamespace>
   </PropertyGroup>
-
-  <ItemGroup>
-    <None Include="Rabbits.csproj" />
-  </ItemGroup>
 
 </Project>

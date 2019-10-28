@@ -27,6 +27,36 @@ namespace _01
 
             while (males.Any() && females.Any())
             {
+                if (males.Peek() <= 0)
+                {
+                    males.Pop();
+
+                    continue;
+                }
+
+                if (females.Peek() <= 0)
+                {
+                    females.Dequeue();
+
+                    continue;
+                }
+
+                if (males.Peek() % 25 == 0)
+                {
+                    males.Pop();
+                    males.Pop();
+
+                    continue;
+                }
+
+                if (females.Peek() % 25 == 0)
+                {
+                    females.Dequeue();
+                    females.Dequeue();
+
+                    continue;
+                }
+
                 if (males.Peek() == females.Peek())
                 {
                     males.Pop();
@@ -39,52 +69,13 @@ namespace _01
                     males.Push(males.Pop() - 2);
                     females.Dequeue();
                 }
-
-                for (int i = 0; i < males.Count; i++)
-                {
-                    if (males.Any() && males.Peek() <= 0)
-                    {
-                        males.Pop();
-                        i--;
-                    }
-                }
-
-                for (int i = 0; i < females.Count; i++)
-                {
-                    if (females.Any() && females.Peek() <= 0)
-                    {
-                        females.Dequeue();
-                        i--;
-                    }
-                }
-
-                for (int i = 0; i < males.Count; i++)
-                {
-                    if(males.Any() && males.Peek() % 25 == 0)
-                    {
-                        males.Pop();
-                        males.Pop();
-                        i -= 2;
-                    }
-                }
-
-                for (int i = 0; i < females.Count; i++)
-                {
-                    if (females.Any() && females.Peek() % 25 == 0)
-                    {
-                        females.Dequeue();
-                        females.Dequeue();
-                        i -= 2;
-                    }
-                }
             }
 
             Console.WriteLine($"Matches: {counter}");
 
             if (males.Any())
             {
-
-                Console.WriteLine($"Males left: {string.Join(", ",males)}");
+                Console.WriteLine($"Males left: {string.Join(", ", males)}");
             }
             else
             {
@@ -93,8 +84,7 @@ namespace _01
 
             if (females.Any())
             {
-
-                Console.WriteLine($"Females left: {string.Join(", ",females)}");
+                Console.WriteLine($"Females left: {string.Join(", ", females)}");
             }
             else
             {
