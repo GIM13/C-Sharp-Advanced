@@ -16,7 +16,7 @@
 
         public override string ToString()
         {
-            return $"Rabbit({Species}): {Name}";
+            return $"Rabbit ({Species}): {Name}";
         }
     }
 }

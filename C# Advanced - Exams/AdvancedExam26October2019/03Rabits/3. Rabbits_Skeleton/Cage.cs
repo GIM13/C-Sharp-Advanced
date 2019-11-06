@@ -57,6 +57,8 @@ namespace Rabbits
         {
             List<Rabbit> result = Rabbits.Where(x => x.Species != species).ToList();
 
+            Count -= result.Count;
+
             Rabbits = result;
         }
 
@@ -65,6 +67,8 @@ namespace Rabbits
             var result = Rabbits.FirstOrDefault(x => x.Name == rabbitName);
 
             Rabbits.FirstOrDefault(x => x.Name == rabbitName).Available = false;
+
+            Count--;
 
             return result;
         }
@@ -76,14 +80,18 @@ namespace Rabbits
                 if (rabbit.Species == species)
                 {
                     rabbit.Available = false;
+
+                    Count--;
                 }
             }
+
             return Rabbits.Where(x => x.Species == species).ToArray();
         }
 
         public string Report()
         {
             string result = $"Rabbits available at {Name}:" + Environment.NewLine;
+
             foreach (var rabbit in Rabbits)
             {
                 if (rabbit.Available == true)
