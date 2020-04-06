@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 
 namespace _02BookWorm
 {
@@ -57,7 +56,6 @@ namespace _02BookWorm
                             matrix[row, col] = "-";
                             row--;
                         }
-                        
                     }
                 }
                 else if (command == "down")
@@ -82,7 +80,6 @@ namespace _02BookWorm
                             matrix[row, col] = "-";
                             row++;
                         }
-
                     }
                 }
                 else if (command == "left")
@@ -107,7 +104,6 @@ namespace _02BookWorm
                             matrix[row, col] = "-";
                             col--;
                         }
-
                     }
                 }
                 else if (command == "right")
@@ -132,14 +128,12 @@ namespace _02BookWorm
                             matrix[row, col] = "-";
                             col++;
                         }
-
                     }
                 }
 
                 command = Console.ReadLine();
             }
 
-            
             Console.WriteLine(initialString);
 
             for (int i = 0; i < sizeMatrix; i++)
@@ -148,6 +142,7 @@ namespace _02BookWorm
                 {
                     Console.Write(matrix[i, j]);
                 }
+
                 Console.WriteLine();
             }
         }
