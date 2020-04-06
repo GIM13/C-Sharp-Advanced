@@ -1,5 +1,4 @@
-﻿
-namespace Workshop
+﻿namespace Workshop
 {
     public class StartUp
     {

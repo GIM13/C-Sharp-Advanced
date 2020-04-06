@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _01GenericBoxOfString
+namespace _01GenericBox
 {
     public class StartUp
     {

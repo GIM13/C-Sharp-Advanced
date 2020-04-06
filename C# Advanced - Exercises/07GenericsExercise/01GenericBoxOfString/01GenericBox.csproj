@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>_01GenericBox</RootNamespace>
+    <AssemblyName>01GenericBox</AssemblyName>
+  </PropertyGroup>
+
+</Project>

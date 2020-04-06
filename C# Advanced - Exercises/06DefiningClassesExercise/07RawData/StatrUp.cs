@@ -14,7 +14,9 @@ namespace _07RawData
             for (int i = 0; i < numberCars; i++)
             {
                 string[] info = Console.ReadLine().Split();
+
                 string model = info[0];
+
                 int engineSpeed = int.Parse(info[1]);
                 int enginePower = int.Parse(info[2]);
 
@@ -42,13 +44,14 @@ namespace _07RawData
             }
 
             string command = Console.ReadLine();
+
             var result = new List<string>();
 
             foreach (var car in listCars)
             {
                 if (command == "fragile"
                  && car.Cargo.CargoType == "fragile"
-                 && MinPressureTire(car))
+                 && car.TireSet.LittlePressureTire())
                 {
                     result.Add(car.Model);
                 }
@@ -61,20 +64,6 @@ namespace _07RawData
             }
 
             Console.WriteLine(string.Join(Environment.NewLine, result));
-        }
-
-        private static bool MinPressureTire(Car car)
-        {
-            bool minPressure = false;
-            if (car.TireSet.Tire1Pressure < 1
-              || car.TireSet.Tire2Pressure < 1
-              || car.TireSet.Tire3Pressure < 1
-              || car.TireSet.Tire4Pressure < 1)
-            {
-                minPressure = true;
-            }
-
-            return minPressure;
         }
     }
 }

@@ -6,4 +6,8 @@
     <RootNamespace>_03GenericSwapMethodString</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\01GenericBoxOfString\01GenericBox.csproj" />
+  </ItemGroup>
+
 </Project>

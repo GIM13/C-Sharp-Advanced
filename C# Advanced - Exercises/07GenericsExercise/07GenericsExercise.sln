@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29319.158
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01GenericBoxOfString", "01GenericBoxOfString\01GenericBoxOfString.csproj", "{AA15AE5C-E343-447B-A7EC-15ECE68B71A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01GenericBox", "01GenericBoxOfString\01GenericBox.csproj", "{AA15AE5C-E343-447B-A7EC-15ECE68B71A9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02GenericBoxOfInteger", "02GenericBoxOfInteger\02GenericBoxOfInteger.csproj", "{A348DF0E-7517-4A04-8240-F0E988BE7D70}"
 EndProject
@@ -13,11 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04GenericSwapMethodInteger"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05GenericCountMethodString", "05GenericCountMethodString\05GenericCountMethodString.csproj", "{3380A6FE-FFDA-45A6-B3FD-D8B3C8DA46F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07Tuple", "07Tuple\07Tuple.csproj", "{25CEDE6C-8B4F-48D4-B8C9-CED3170A6064}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07Tuple", "07Tuple\07Tuple.csproj", "{25CEDE6C-8B4F-48D4-B8C9-CED3170A6064}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08Threeuple", "08Threeuple\08Threeuple.csproj", "{7B483D6B-C46B-42C8-9C44-364E1D5A4C8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08Threeuple", "08Threeuple\08Threeuple.csproj", "{7B483D6B-C46B-42C8-9C44-364E1D5A4C8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09CustomLinkedList", "09CustomLinkedList\09CustomLinkedList.csproj", "{1E99B493-1EBE-48EE-82AF-03FCC5F9A5F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09CustomLinkedList", "09CustomLinkedList\09CustomLinkedList.csproj", "{1E99B493-1EBE-48EE-82AF-03FCC5F9A5F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

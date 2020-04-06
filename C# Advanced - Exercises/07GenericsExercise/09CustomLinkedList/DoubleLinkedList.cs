@@ -138,8 +138,7 @@ namespace Workshop
 
         public void Clear()
         {
-            this.head = null;
-            this.tail = null;
+            this.head = this.tail = null;
 
             this.Count = 0;
         }

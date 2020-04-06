@@ -33,5 +33,13 @@ namespace _07RawData
         public double Tire4Pressure { get; set; }
 
         public int Tire4Age { get; set; }
+
+        public bool LittlePressureTire()
+        {
+            return (Tire1Pressure < 1
+                 || Tire2Pressure < 1
+                 || Tire3Pressure < 1
+                 || Tire4Pressure < 1);
+        }
     }
 }

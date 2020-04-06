@@ -1,8 +1,8 @@
-﻿namespace _01GenericBoxOfString
+﻿namespace _01GenericBox
 {
     public class Box<T>
     {
-        private T value;
+        private readonly T value;
 
         public Box(T value)
         {

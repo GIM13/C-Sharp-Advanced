@@ -7,6 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Update="03WordCount.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="expectedResult.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

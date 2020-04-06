@@ -33,6 +33,7 @@ namespace _05DirectoryTraversal
                 .ToDictionary(x => x.Key, y => y.Value);
 
             string toDesktop = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "/report.txt ";
+
             using (var writer = new StreamWriter(toDesktop))
             {
                 foreach (var (extension, nameSize) in extensions)
