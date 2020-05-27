@@ -7,6 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Update="06ZipAndExtract.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="forZip\copyMe.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

@@ -7,15 +7,15 @@ namespace _06ZipAndExtract
     {
         static void Main()
         {
-            string toDesktopZip = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "/forExtract.zip"; 
+            string toDesktop = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "/forExtract.zip";
 
-            string toDesktopExtract = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "/forExtract.zip"; 
+            string result = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "/final";
 
-            string result = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "/final"; 
+            string forZip = "./forZip";
 
-            ZipFile.CreateFromDirectory("forZip", toDesktopZip);
+            ZipFile.CreateFromDirectory(forZip, toDesktop);
 
-            ZipFile.ExtractToDirectory(toDesktopExtract, result);
+            ZipFile.ExtractToDirectory(toDesktop, result);
         }
     }
 }

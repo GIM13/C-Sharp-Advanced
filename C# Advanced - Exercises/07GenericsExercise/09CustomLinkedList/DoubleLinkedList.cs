@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Workshop
+namespace _09CustomLinkedList
 {
     public class DoubleLinkedList<T>
     {
@@ -44,7 +44,7 @@ namespace Workshop
 
         public void AddLast(T element)
         {
-            ListNode<T> newTail = new ListNode<T>(element);
+            var newTail = new ListNode<T>(element);
 
             if (this.Count == 0)
             {

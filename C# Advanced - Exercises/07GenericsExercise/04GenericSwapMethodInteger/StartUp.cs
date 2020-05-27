@@ -9,7 +9,7 @@ namespace _04GenericSwapMethodInteger
         {
             int numInput = int.Parse(Console.ReadLine());
 
-            var input = new Box<int>[numInput];
+            Box<int>[] input = new Box<int>[numInput];
 
             for (int i = 0; i < numInput; i++)
             {
